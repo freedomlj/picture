@@ -1,0 +1,173 @@
+.picture{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .p_nav{
+        width: 100%;
+        height: 145px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        border-bottom: 1px solid #e9e9e9;
+        div{
+            font-size: 42px;
+            color: #808080;
+            width: 150px;
+            height: 80px;
+            text-align: center;
+            line-height: 80px;
+        }
+    }
+
+    .recommend{
+        width: 100%;
+        height: 100%;
+        .tag{
+            width: 100%;
+            height: 724px;
+            box-sizing: border-box;
+            border-bottom: 30px solid #e9e9e9;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 30px;
+            li{
+                width: 495px;
+                height: 308px;
+                border-radius: 4px;
+                overflow: hidden;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+
+        .hot{
+            h2{
+                width: 100%;
+                height: 144px;
+                padding-left: 21px;
+                display: flex;
+                align-items: center;
+                font-size: 42px;
+                i{
+                    display: block;
+                    width: 11px;
+                    height: 57px;
+                    border-radius: 5px;
+                    background: #ec6838;
+                    margin-right: 20px;
+                }
+            }
+
+            .hot_list{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                box-sizing: border-box;
+                padding: 0 6px;
+                li{
+                    width: 352px;
+                    height: 545px;
+                    margin-top: 6px;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+    
+    .new{
+        width: 100%;
+        height: 100%;
+        .new_list{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            box-sizing: border-box;
+            padding: 0 6px;
+            li{
+                width: 352px;
+                height: 545px;
+                margin-top: 6px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+
+    .classify{
+        width: 100%;
+        height: 100%;
+        .classify_list{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            box-sizing: border-box;
+            padding: 9px 18px;
+            li{
+                width: 336px;
+                height: 336px;
+                margin-bottom: 18px;
+                position: relative;
+                div{
+                    position: absolute;
+                    bottom: 0;
+                    width:100%;
+                    height:100%;
+                    background: -webkit-linear-gradient(29deg, #000000 16%, #fff 34%); /* Safari 5.1 - 6.0 */
+                    background: -o-linear-gradient(29deg, #000000 16%, #fff 34%); /* Opera 11.6 - 12.0 */
+                    background: -moz-linear-gradient(29deg, #000000 16%, #fff 34%); /* Firefox 3.6 - 15 */
+                    background: linear-gradient(29deg, #000000 16%, #fff 34%); /* 标准的语法 */
+                    opacity: 0.1;
+                }
+                span{
+                    position: absolute;
+                    z-index: 9;
+                    bottom: 20px;
+                    left: 18px;
+                    font-size: 56px;
+                    color: #fff;
+                }
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+
+#swipe{
+    flex: 1;
+    width: 100%;
+    .swiper-wrapper{
+        width: 100%;
+        height: 100%;
+        .swiper-slide{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+.p_active{
+    color: #161616 !important;
+    i{
+        width: 90px;
+        height: 9px;
+        display: block;
+        background: #ec6838;
+        border-radius: 5px;
+        margin: 0 auto;
+    }
+}

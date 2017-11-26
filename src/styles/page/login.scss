@@ -1,0 +1,141 @@
+.login{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #f7f7f7;
+    .login_head{
+        width: 100%;
+        height: 145px;
+        box-sizing: border-box;
+        border-bottom: 1px solid #e9e9e9;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 48px;
+        background: #fff;
+        padding: 0 40px;
+        .back{
+            width: 200px;
+            height: 144px;
+            display: flex;
+            align-items: center;
+            i{
+                font-size: 40px !important;
+                color: #444;
+                margin-right: 32px;
+            }
+        }
+        .register_btn{
+            display: block;
+            width: 200px;
+            height: 144px;
+            line-height: 144px;
+            text-align: right;
+        }
+    }
+
+    .login_main{
+        width: 100%;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 90px;
+        .username{
+            position: relative;
+            margin-bottom: 30px;
+            i{
+                position: absolute;
+                left: 45px;
+                font-size: 42px !important;
+                color: #b6b6b6;
+                z-index: 9;
+                line-height: 150px;
+            }
+        }
+
+        .password{
+            position: relative;
+            i{
+                position: absolute;
+                left: 40px;
+                font-size: 42px !important;
+                color: #b6b6b6;
+                z-index: 9;
+                line-height: 150px;
+            }
+        }
+
+        .login_btn{
+            width: 900px;
+            height: 150px;
+            border-radius: 20px;
+            font-size: 42px;
+            margin-top: 90px;
+            background: #fdd121;
+            border: 1px solid #fdd121;
+            box-sizing: border-box;
+            color: #000;
+        }
+
+        .forget{
+            width: 900px;
+            text-align: right;
+            margin-top: 70px;
+            font-size: 42px;
+        }
+
+        .login_more{
+            width: 900px;
+            margin-top: 140px;
+            font-size: 42px;
+            color: #333;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            i{
+                display: block;
+                width: 161px;
+                height: 1px;
+                border: 1px solid #999
+            }
+        }
+
+        .more_box{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 572px;
+            height: 135px;
+            margin-top: 38px;
+            span{
+                display: block;
+                width: 132px;
+                height: 132px;
+                border-radius: 50%;
+                overflow: hidden;
+                background: url("../assets/img/login_icon.png") no-repeat;
+                background-size: 528px 132px;
+                &:nth-child(1){
+                    background-position: -132px 0;
+                }
+                &:nth-child(2){
+                    background-position: -264px 0;
+                }
+                &:nth-child(3){
+                    background-position: -396px 0;
+                }
+            }
+        }
+        
+        
+        input{
+            width: 900px;
+            height: 150px;
+            border-radius: 20px;
+            font-size: 42px;
+            padding-left: 99px;
+        }
+    }
+}

@@ -1,0 +1,85 @@
+.Lhot{
+    width: 100%;
+    height: 100%;
+    .Lhot_list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        box-sizing: border-box;
+        padding: 3px 6px;
+        li{
+            width: 352px;
+            height: 352px;
+            margin-bottom: 6px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+
+.Land{
+    width: 100%;
+    height: 100%;
+    .Land_list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        box-sizing: border-box;
+        padding: 3px 6px;
+        li{
+            width: 352px;
+            height: 352px;
+            margin-bottom: 6px;
+            text-align: center;
+            overflow: hidden;
+            img{
+                height: 100%;
+                margin: 0 -28%;
+            }
+        }
+    }
+}
+
+
+.Lclassify{
+    width: 100%;
+    height: 100%;
+    .Lclassify_list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        box-sizing: border-box;
+        padding: 9px 18px;
+        li{
+            width: 513px;
+            height: 294px;
+            margin-bottom: 18px;
+            position: relative;
+            div{
+                position: absolute;
+                bottom: 0;
+                width:100%;
+                height:100%;
+                background: -webkit-linear-gradient(29deg, #000000 16%, #fff 34%); /* Safari 5.1 - 6.0 */
+                background: -o-linear-gradient(29deg, #000000 16%, #fff 34%); /* Opera 11.6 - 12.0 */
+                background: -moz-linear-gradient(29deg, #000000 16%, #fff 34%); /* Firefox 3.6 - 15 */
+                background: linear-gradient(29deg, #000000 16%, #fff 34%); /* 标准的语法 */
+                opacity: 0.1;
+            }
+            span{
+                z-index: 9;
+                position: absolute;
+                bottom: 20px;
+                left: 18px;
+                font-size: 56px;
+                color: #fff;
+            }
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
